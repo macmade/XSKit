@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		054B61B31FC76E5400DA06E2 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B61B21FC76E5400DA06E2 /* Preferences.swift */; };
+		054B61CF1FC76F6F00DA06E2 /* AboutWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B61CE1FC76F6F00DA06E2 /* AboutWindowController.swift */; };
+		054B61D61FC76FAA00DA06E2 /* XSKit.AboutWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054B61D41FC76FAA00DA06E2 /* XSKit.AboutWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		054B61AF1FC76CBB00DA06E2 /* All-Languages.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "All-Languages.xcconfig"; sourceTree = "<group>"; };
 		054B61B01FC76CBB00DA06E2 /* Preprocessing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Preprocessing.xcconfig; sourceTree = "<group>"; };
 		054B61B21FC76E5400DA06E2 /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		054B61CE1FC76F6F00DA06E2 /* AboutWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutWindowController.swift; sourceTree = "<group>"; };
+		054B61D51FC76FAA00DA06E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/XSKit.AboutWindowController.xib; sourceTree = "<group>"; };
 		0581B3421F8BF5F700283F18 /* XSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0581B3461F8BF5F700283F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -191,6 +195,7 @@
 		0581B34D1F8BF63800283F18 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				054B61CE1FC76F6F00DA06E2 /* AboutWindowController.swift */,
 				054B61B21FC76E5400DA06E2 /* Preferences.swift */,
 			);
 			path = Source;
@@ -199,6 +204,7 @@
 		0581B34E1F8BF64500283F18 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				054B61D41FC76FAA00DA06E2 /* XSKit.AboutWindowController.xib */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -256,6 +262,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 0581B3381F8BF5F700283F18;
 			productRefGroup = 0581B3431F8BF5F700283F18 /* Products */;
@@ -272,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				054B61D61FC76FAA00DA06E2 /* XSKit.AboutWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,10 +291,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				054B61B31FC76E5400DA06E2 /* Preferences.swift in Sources */,
+				054B61CF1FC76F6F00DA06E2 /* AboutWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		054B61D41FC76FAA00DA06E2 /* XSKit.AboutWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				054B61D51FC76FAA00DA06E2 /* Base */,
+			);
+			name = XSKit.AboutWindowController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0581B3481F8BF5F700283F18 /* Debug */ = {
@@ -324,8 +344,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xs-labs.XSKit";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -344,7 +362,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xs-labs.XSKit";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
