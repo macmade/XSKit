@@ -11,6 +11,9 @@
 		054B61CF1FC76F6F00DA06E2 /* AboutWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B61CE1FC76F6F00DA06E2 /* AboutWindowController.swift */; };
 		054B61D61FC76FAA00DA06E2 /* XSKit.AboutWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054B61D41FC76FAA00DA06E2 /* XSKit.AboutWindowController.xib */; };
 		054B61D91FC7704C00DA06E2 /* NSArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B61D81FC7704C00DA06E2 /* NSArrayController.swift */; };
+		054B61DE1FC7708000DA06E2 /* ArrayIsEmptyValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B61DB1FC7708000DA06E2 /* ArrayIsEmptyValueTransformer.swift */; };
+		054B61DF1FC7708000DA06E2 /* ArrayIsNotEmptyValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B61DC1FC7708000DA06E2 /* ArrayIsNotEmptyValueTransformer.swift */; };
+		054B61E01FC7708000DA06E2 /* NumberToStringValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B61DD1FC7708000DA06E2 /* NumberToStringValueTransformer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +56,9 @@
 		054B61CE1FC76F6F00DA06E2 /* AboutWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutWindowController.swift; sourceTree = "<group>"; };
 		054B61D51FC76FAA00DA06E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/XSKit.AboutWindowController.xib; sourceTree = "<group>"; };
 		054B61D81FC7704C00DA06E2 /* NSArrayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSArrayController.swift; sourceTree = "<group>"; };
+		054B61DB1FC7708000DA06E2 /* ArrayIsEmptyValueTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayIsEmptyValueTransformer.swift; sourceTree = "<group>"; };
+		054B61DC1FC7708000DA06E2 /* ArrayIsNotEmptyValueTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayIsNotEmptyValueTransformer.swift; sourceTree = "<group>"; };
+		054B61DD1FC7708000DA06E2 /* NumberToStringValueTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberToStringValueTransformer.swift; sourceTree = "<group>"; };
 		0581B3421F8BF5F700283F18 /* XSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0581B3461F8BF5F700283F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -175,6 +181,16 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		054B61DA1FC7708000DA06E2 /* Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				054B61DB1FC7708000DA06E2 /* ArrayIsEmptyValueTransformer.swift */,
+				054B61DC1FC7708000DA06E2 /* ArrayIsNotEmptyValueTransformer.swift */,
+				054B61DD1FC7708000DA06E2 /* NumberToStringValueTransformer.swift */,
+			);
+			path = Transformers;
+			sourceTree = "<group>";
+		};
 		0581B3381F8BF5F700283F18 = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +224,7 @@
 				054B61CE1FC76F6F00DA06E2 /* AboutWindowController.swift */,
 				054B61D71FC7704C00DA06E2 /* Extensions */,
 				054B61B21FC76E5400DA06E2 /* Preferences.swift */,
+				054B61DA1FC7708000DA06E2 /* Transformers */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -304,6 +321,9 @@
 				054B61B31FC76E5400DA06E2 /* Preferences.swift in Sources */,
 				054B61D91FC7704C00DA06E2 /* NSArrayController.swift in Sources */,
 				054B61CF1FC76F6F00DA06E2 /* AboutWindowController.swift in Sources */,
+				054B61DF1FC7708000DA06E2 /* ArrayIsNotEmptyValueTransformer.swift in Sources */,
+				054B61E01FC7708000DA06E2 /* NumberToStringValueTransformer.swift in Sources */,
+				054B61DE1FC7708000DA06E2 /* ArrayIsEmptyValueTransformer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
