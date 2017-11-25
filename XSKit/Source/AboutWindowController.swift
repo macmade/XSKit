@@ -30,12 +30,12 @@ import Cocoa
     @objc private dynamic var version:   String?
     @objc private dynamic var copyright: String?
     
-    override var windowNibName: NSNib.Name?
+    public override var windowNibName: NSNib.Name?
     {
         return NSNib.Name( NSStringFromClass( type( of: self ) ) )
     }
     
-    override func windowDidLoad()
+    public override func windowDidLoad()
     {
         super.windowDidLoad()
         
