@@ -14,6 +14,10 @@
 		054B61DE1FC7708000DA06E2 /* ArrayIsEmptyValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B61DB1FC7708000DA06E2 /* ArrayIsEmptyValueTransformer.swift */; };
 		054B61DF1FC7708000DA06E2 /* ArrayIsNotEmptyValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B61DC1FC7708000DA06E2 /* ArrayIsNotEmptyValueTransformer.swift */; };
 		054B61E01FC7708000DA06E2 /* NumberToStringValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B61DD1FC7708000DA06E2 /* NumberToStringValueTransformer.swift */; };
+		0560AE371FC9EADF00D3850B /* ArrayCountStringValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0560AE331FC9EADF00D3850B /* ArrayCountStringValueTransformer.swift */; };
+		0560AE381FC9EADF00D3850B /* ArrayCountIsOneValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0560AE341FC9EADF00D3850B /* ArrayCountIsOneValueTransformer.swift */; };
+		0560AE391FC9EADF00D3850B /* ArrayCountValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0560AE351FC9EADF00D3850B /* ArrayCountValueTransformer.swift */; };
+		0560AE3A1FC9EADF00D3850B /* ArrayCountIsGreaterThanOneValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0560AE361FC9EADF00D3850B /* ArrayCountIsGreaterThanOneValueTransformer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +63,10 @@
 		054B61DB1FC7708000DA06E2 /* ArrayIsEmptyValueTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayIsEmptyValueTransformer.swift; sourceTree = "<group>"; };
 		054B61DC1FC7708000DA06E2 /* ArrayIsNotEmptyValueTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayIsNotEmptyValueTransformer.swift; sourceTree = "<group>"; };
 		054B61DD1FC7708000DA06E2 /* NumberToStringValueTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberToStringValueTransformer.swift; sourceTree = "<group>"; };
+		0560AE331FC9EADF00D3850B /* ArrayCountStringValueTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayCountStringValueTransformer.swift; sourceTree = "<group>"; };
+		0560AE341FC9EADF00D3850B /* ArrayCountIsOneValueTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayCountIsOneValueTransformer.swift; sourceTree = "<group>"; };
+		0560AE351FC9EADF00D3850B /* ArrayCountValueTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayCountValueTransformer.swift; sourceTree = "<group>"; };
+		0560AE361FC9EADF00D3850B /* ArrayCountIsGreaterThanOneValueTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayCountIsGreaterThanOneValueTransformer.swift; sourceTree = "<group>"; };
 		0581B3421F8BF5F700283F18 /* XSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0581B3461F8BF5F700283F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -184,6 +192,10 @@
 		054B61DA1FC7708000DA06E2 /* Transformers */ = {
 			isa = PBXGroup;
 			children = (
+				0560AE361FC9EADF00D3850B /* ArrayCountIsGreaterThanOneValueTransformer.swift */,
+				0560AE341FC9EADF00D3850B /* ArrayCountIsOneValueTransformer.swift */,
+				0560AE331FC9EADF00D3850B /* ArrayCountStringValueTransformer.swift */,
+				0560AE351FC9EADF00D3850B /* ArrayCountValueTransformer.swift */,
 				054B61DB1FC7708000DA06E2 /* ArrayIsEmptyValueTransformer.swift */,
 				054B61DC1FC7708000DA06E2 /* ArrayIsNotEmptyValueTransformer.swift */,
 				054B61DD1FC7708000DA06E2 /* NumberToStringValueTransformer.swift */,
@@ -318,12 +330,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0560AE391FC9EADF00D3850B /* ArrayCountValueTransformer.swift in Sources */,
 				054B61B31FC76E5400DA06E2 /* Preferences.swift in Sources */,
 				054B61D91FC7704C00DA06E2 /* NSArrayController.swift in Sources */,
 				054B61CF1FC76F6F00DA06E2 /* AboutWindowController.swift in Sources */,
+				0560AE3A1FC9EADF00D3850B /* ArrayCountIsGreaterThanOneValueTransformer.swift in Sources */,
 				054B61DF1FC7708000DA06E2 /* ArrayIsNotEmptyValueTransformer.swift in Sources */,
 				054B61E01FC7708000DA06E2 /* NumberToStringValueTransformer.swift in Sources */,
 				054B61DE1FC7708000DA06E2 /* ArrayIsEmptyValueTransformer.swift in Sources */,
+				0560AE381FC9EADF00D3850B /* ArrayCountIsOneValueTransformer.swift in Sources */,
+				0560AE371FC9EADF00D3850B /* ArrayCountStringValueTransformer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
