@@ -56,6 +56,3 @@ import Foundation
         return NSNumber( value: string.doubleValue )
     }
 }
-
-
-
