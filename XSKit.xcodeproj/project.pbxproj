@@ -18,6 +18,7 @@
 		0560AE381FC9EADF00D3850B /* ArrayCountIsOneValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0560AE341FC9EADF00D3850B /* ArrayCountIsOneValueTransformer.swift */; };
 		0560AE391FC9EADF00D3850B /* ArrayCountValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0560AE351FC9EADF00D3850B /* ArrayCountValueTransformer.swift */; };
 		0560AE3A1FC9EADF00D3850B /* ArrayCountIsGreaterThanOneValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0560AE361FC9EADF00D3850B /* ArrayCountIsGreaterThanOneValueTransformer.swift */; };
+		0560AE401FC9F06800D3850B /* NSApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0560AE3F1FC9F06800D3850B /* NSApplication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		0560AE341FC9EADF00D3850B /* ArrayCountIsOneValueTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayCountIsOneValueTransformer.swift; sourceTree = "<group>"; };
 		0560AE351FC9EADF00D3850B /* ArrayCountValueTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayCountValueTransformer.swift; sourceTree = "<group>"; };
 		0560AE361FC9EADF00D3850B /* ArrayCountIsGreaterThanOneValueTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayCountIsGreaterThanOneValueTransformer.swift; sourceTree = "<group>"; };
+		0560AE3F1FC9F06800D3850B /* NSApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSApplication.swift; sourceTree = "<group>"; };
 		0581B3421F8BF5F700283F18 /* XSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0581B3461F8BF5F700283F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -185,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				054B61D81FC7704C00DA06E2 /* NSArrayController.swift */,
+				0560AE3F1FC9F06800D3850B /* NSApplication.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				054B61DF1FC7708000DA06E2 /* ArrayIsNotEmptyValueTransformer.swift in Sources */,
 				054B61E01FC7708000DA06E2 /* NumberToStringValueTransformer.swift in Sources */,
 				054B61DE1FC7708000DA06E2 /* ArrayIsEmptyValueTransformer.swift in Sources */,
+				0560AE401FC9F06800D3850B /* NSApplication.swift in Sources */,
 				0560AE381FC9EADF00D3850B /* ArrayCountIsOneValueTransformer.swift in Sources */,
 				0560AE371FC9EADF00D3850B /* ArrayCountStringValueTransformer.swift in Sources */,
 			);
