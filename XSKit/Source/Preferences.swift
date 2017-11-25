@@ -24,9 +24,9 @@
 
 import Cocoa
 
-@objc public class Preferences: NSObject
+@objc open class Preferences: NSObject
 {
-    convenience override init()
+    public convenience override init()
     {
         guard let path = Bundle.main.path( forResource: "Defaults", ofType: "plist" ) else
         {
@@ -38,7 +38,7 @@ import Cocoa
         self.init( path: path )
     }
     
-    convenience init( path: String )
+    public convenience init( path: String )
     {
         guard let defaults = NSDictionary( contentsOfFile: path ) as? [ String : Any ] else
         {
@@ -50,7 +50,7 @@ import Cocoa
         self.init( defaults: defaults )
     }
     
-    init( defaults: [ String : Any ] )
+    public init( defaults: [ String : Any ] )
     {
         super.init()
         
@@ -81,7 +81,7 @@ import Cocoa
         }
     }
     
-    public override func observeValue( forKeyPath keyPath: String?, of object: Any?, change: [ NSKeyValueChangeKey : Any ]?, context: UnsafeMutableRawPointer? )
+    open override func observeValue( forKeyPath keyPath: String?, of object: Any?, change: [ NSKeyValueChangeKey : Any ]?, context: UnsafeMutableRawPointer? )
     {
         for c in Mirror( reflecting: self ).children
         {
