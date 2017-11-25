@@ -24,7 +24,7 @@
 
 import Foundation
 
-@objc class ArrayCountValueTransformer: ValueTransformer
+@objc public class ArrayCountValueTransformer: ValueTransformer
 {
     @objc public override static func allowsReverseTransformation() -> Bool
     {

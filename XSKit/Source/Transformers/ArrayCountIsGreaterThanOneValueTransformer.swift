@@ -24,7 +24,7 @@
 
 import Foundation
 
-@objc class ArrayCountIsGreaterThanOneValueTransformer: ValueTransformer
+@objc public class ArrayCountIsGreaterThanOneValueTransformer: ValueTransformer
 {
     @objc public override static func allowsReverseTransformation() -> Bool
     {

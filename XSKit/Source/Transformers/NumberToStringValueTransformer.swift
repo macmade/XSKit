@@ -24,7 +24,7 @@
 
 import Foundation
 
-@objc class NumberToStringValueTransformer: ValueTransformer
+@objc public class NumberToStringValueTransformer: ValueTransformer
 {
     @objc public override static func allowsReverseTransformation() -> Bool
     {
