@@ -18,7 +18,57 @@
 		05AD4702290AEF7000A791C8 /* AboutWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD4701290AEF7000A791C8 /* AboutWindowController.swift */; };
 		05AD4705290AEF9400A791C8 /* AboutWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05AD4703290AEF9400A791C8 /* AboutWindowController.xib */; };
 		05AD4707290AF12400A791C8 /* NSApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD4706290AF12400A791C8 /* NSApplication.swift */; };
+		05AD471B290AF24100A791C8 /* GitHubUpdates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AD470E290AF22E00A791C8 /* GitHubUpdates.framework */; };
+		05AD471C290AF24100A791C8 /* GitHubUpdates.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05AD470E290AF22E00A791C8 /* GitHubUpdates.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		05AD471E290AF24300A791C8 /* ValueTransformers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AD4717290AF23400A791C8 /* ValueTransformers.framework */; };
+		05AD471F290AF24300A791C8 /* ValueTransformers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05AD4717290AF23400A791C8 /* ValueTransformers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05AD470D290AF22E00A791C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05AD4708290AF22E00A791C8 /* GitHubUpdates.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 05F82B251EF32EA700EC8A93;
+			remoteInfo = GitHubUpdates;
+		};
+		05AD470F290AF22E00A791C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05AD4708290AF22E00A791C8 /* GitHubUpdates.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0555EBA01EF3DDA10016167F;
+			remoteInfo = Relauncher;
+		};
+		05AD4716290AF23400A791C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05AD4711290AF23400A791C8 /* ValueTransformers.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 05CD4ABA20ED7CD100DBDE99;
+			remoteInfo = ValueTransformers;
+		};
+		05AD4718290AF23400A791C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05AD4711290AF23400A791C8 /* ValueTransformers.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 05D3736F20ED96D6007FE14A;
+			remoteInfo = ValueTransformersTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		05AD471D290AF24100A791C8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				05AD471F290AF24300A791C8 /* ValueTransformers.framework in Embed Frameworks */,
+				05AD471C290AF24100A791C8 /* GitHubUpdates.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		052B95BB28FE91510011CF49 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -70,6 +120,8 @@
 		05AD4701290AEF7000A791C8 /* AboutWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutWindowController.swift; sourceTree = "<group>"; };
 		05AD4704290AEF9400A791C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AboutWindowController.xib; sourceTree = "<group>"; };
 		05AD4706290AF12400A791C8 /* NSApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSApplication.swift; sourceTree = "<group>"; };
+		05AD4708290AF22E00A791C8 /* GitHubUpdates.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GitHubUpdates.xcodeproj; path = Submodules/GitHubUpdates/GitHubUpdates.xcodeproj; sourceTree = "<group>"; };
+		05AD4711290AF23400A791C8 /* ValueTransformers.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ValueTransformers.xcodeproj; path = Submodules/ValueTransformers/ValueTransformers.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +129,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05AD471E290AF24300A791C8 /* ValueTransformers.framework in Frameworks */,
+				05AD471B290AF24100A791C8 /* GitHubUpdates.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,9 +240,12 @@
 			isa = PBXGroup;
 			children = (
 				052B95BB28FE91510011CF49 /* README.md */,
+				05AD4708290AF22E00A791C8 /* GitHubUpdates.xcodeproj */,
+				05AD4711290AF23400A791C8 /* ValueTransformers.xcodeproj */,
 				054B61851FC76CBB00DA06E2 /* xcconfig */,
 				0581B3441F8BF5F700283F18 /* XSKit */,
 				0581B3431F8BF5F700283F18 /* Products */,
+				05AD471A290AF24100A791C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -267,6 +324,31 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		05AD4709290AF22E00A791C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05AD470E290AF22E00A791C8 /* GitHubUpdates.framework */,
+				05AD4710290AF22E00A791C8 /* Relauncher */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05AD4712290AF23400A791C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05AD4717290AF23400A791C8 /* ValueTransformers.framework */,
+				05AD4719290AF23400A791C8 /* ValueTransformersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05AD471A290AF24100A791C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -288,6 +370,7 @@
 				0581B33E1F8BF5F700283F18 /* Frameworks */,
 				0581B33F1F8BF5F700283F18 /* Headers */,
 				0581B3401F8BF5F700283F18 /* Resources */,
+				05AD471D290AF24100A791C8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -325,12 +408,53 @@
 			mainGroup = 0581B3381F8BF5F700283F18;
 			productRefGroup = 0581B3431F8BF5F700283F18 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 05AD4709290AF22E00A791C8 /* Products */;
+					ProjectRef = 05AD4708290AF22E00A791C8 /* GitHubUpdates.xcodeproj */;
+				},
+				{
+					ProductGroup = 05AD4712290AF23400A791C8 /* Products */;
+					ProjectRef = 05AD4711290AF23400A791C8 /* ValueTransformers.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0581B3411F8BF5F700283F18 /* XSKit */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		05AD470E290AF22E00A791C8 /* GitHubUpdates.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GitHubUpdates.framework;
+			remoteRef = 05AD470D290AF22E00A791C8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		05AD4710290AF22E00A791C8 /* Relauncher */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Relauncher;
+			remoteRef = 05AD470F290AF22E00A791C8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		05AD4717290AF23400A791C8 /* ValueTransformers.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ValueTransformers.framework;
+			remoteRef = 05AD4716290AF23400A791C8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		05AD4719290AF23400A791C8 /* ValueTransformersTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ValueTransformersTests.xctest;
+			remoteRef = 05AD4718290AF23400A791C8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0581B3401F8BF5F700283F18 /* Resources */ = {
