@@ -4,3 +4,6 @@
 [submodule "Submodules/ValueTransformers"]
 	path = Submodules/ValueTransformers
 	url = https://github.com/macmade/ValueTransformers.git
+[submodule "Submodules/GitHubUpdates"]
+	path = Submodules/GitHubUpdates
+	url = https://github.com/macmade/GitHubUpdates.git
