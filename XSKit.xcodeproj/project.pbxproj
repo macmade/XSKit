@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		05AD46DD290AEC9C00A791C8 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD46DC290AEC9C00A791C8 /* Bundle.swift */; };
+		05AD46EB290AED5D00A791C8 /* NSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD46EA290AED5D00A791C8 /* NSView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		0581B3421F8BF5F700283F18 /* XSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0581B3461F8BF5F700283F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05AD46DC290AEC9C00A791C8 /* Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		05AD46EA290AED5D00A791C8 /* NSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				05AD46DC290AEC9C00A791C8 /* Bundle.swift */,
+				05AD46EA290AED5D00A791C8 /* NSView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05AD46DD290AEC9C00A791C8 /* Bundle.swift in Sources */,
+				05AD46EB290AED5D00A791C8 /* NSView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
