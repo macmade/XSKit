@@ -23,9 +23,17 @@
  ******************************************************************************/
 
 import Cocoa
+import GitHubUpdates
+
+private var GlobalUpdater = GitHubUpdater()
 
 public extension NSApplication
 {
+    var updater: GitHubUpdater
+    {
+        return GlobalUpdater
+    }
+
     @IBAction
     func showAboutWindow( _ sender: Any? )
     {
@@ -44,5 +52,19 @@ public extension NSApplication
         }
 
         window.makeKeyAndOrderFront( nil )
+    }
+
+    @IBAction
+    func checkForUpdates( _ sender: Any? )
+    {
+        guard self.updater.user.isEmpty == false, self.updater.repository.isEmpty == false
+        else
+        {
+            NSSound.beep()
+
+            return
+        }
+
+        self.updater.checkForUpdates( sender )
     }
 }
