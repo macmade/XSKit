@@ -10,6 +10,11 @@
 		05AD46DD290AEC9C00A791C8 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD46DC290AEC9C00A791C8 /* Bundle.swift */; };
 		05AD46EB290AED5D00A791C8 /* NSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD46EA290AED5D00A791C8 /* NSView.swift */; };
 		05AD46F4290AEDDD00A791C8 /* TableRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD46F3290AEDDD00A791C8 /* TableRowView.swift */; };
+		05AD46F8290AEE0800A791C8 /* Credit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD46F5290AEE0800A791C8 /* Credit.swift */; };
+		05AD46F9290AEE0800A791C8 /* CreditsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD46F6290AEE0800A791C8 /* CreditsWindowController.swift */; };
+		05AD46FA290AEE0800A791C8 /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD46F7290AEE0800A791C8 /* CreditViewController.swift */; };
+		05AD46FF290AEE1900A791C8 /* CreditsWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05AD46FB290AEE1900A791C8 /* CreditsWindowController.xib */; };
+		05AD4700290AEE1900A791C8 /* CreditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05AD46FD290AEE1900A791C8 /* CreditViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +59,11 @@
 		05AD46DC290AEC9C00A791C8 /* Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		05AD46EA290AED5D00A791C8 /* NSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSView.swift; sourceTree = "<group>"; };
 		05AD46F3290AEDDD00A791C8 /* TableRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRowView.swift; sourceTree = "<group>"; };
+		05AD46F5290AEE0800A791C8 /* Credit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credit.swift; sourceTree = "<group>"; };
+		05AD46F6290AEE0800A791C8 /* CreditsWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsWindowController.swift; sourceTree = "<group>"; };
+		05AD46F7290AEE0800A791C8 /* CreditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
+		05AD46FC290AEE1900A791C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CreditsWindowController.xib; sourceTree = "<group>"; };
+		05AD46FE290AEE1900A791C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CreditViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +218,8 @@
 		0581B34E1F8BF64500283F18 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				05AD46FB290AEE1900A791C8 /* CreditsWindowController.xib */,
+				05AD46FD290AEE1900A791C8 /* CreditViewController.xib */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -224,6 +236,9 @@
 		05AD46D8290AEC1300A791C8 /* Credits */ = {
 			isa = PBXGroup;
 			children = (
+				05AD46F5290AEE0800A791C8 /* Credit.swift */,
+				05AD46F6290AEE0800A791C8 /* CreditsWindowController.swift */,
+				05AD46F7290AEE0800A791C8 /* CreditViewController.swift */,
 			);
 			path = Credits;
 			sourceTree = "<group>";
@@ -313,6 +328,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05AD46FF290AEE1900A791C8 /* CreditsWindowController.xib in Resources */,
+				05AD4700290AEE1900A791C8 /* CreditViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,11 +342,33 @@
 			files = (
 				05AD46DD290AEC9C00A791C8 /* Bundle.swift in Sources */,
 				05AD46EB290AED5D00A791C8 /* NSView.swift in Sources */,
+				05AD46F8290AEE0800A791C8 /* Credit.swift in Sources */,
+				05AD46F9290AEE0800A791C8 /* CreditsWindowController.swift in Sources */,
 				05AD46F4290AEDDD00A791C8 /* TableRowView.swift in Sources */,
+				05AD46FA290AEE0800A791C8 /* CreditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05AD46FB290AEE1900A791C8 /* CreditsWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05AD46FC290AEE1900A791C8 /* Base */,
+			);
+			name = CreditsWindowController.xib;
+			sourceTree = "<group>";
+		};
+		05AD46FD290AEE1900A791C8 /* CreditViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05AD46FE290AEE1900A791C8 /* Base */,
+			);
+			name = CreditViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0581B3481F8BF5F700283F18 /* Debug */ = {
