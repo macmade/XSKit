@@ -20,7 +20,7 @@
             <rect key="screenRect" x="0.0" y="0.0" width="1710" height="1069"/>
             <view key="contentView" wantsLayer="YES" id="T4x-mz-gMy">
                 <rect key="frame" x="0.0" y="0.0" width="418" height="286"/>
-                <autoresizingMask key="autoresizingMask"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 <subviews>
                     <visualEffectView blendingMode="behindWindow" material="underWindowBackground" state="followsWindowActiveState" translatesAutoresizingMaskIntoConstraints="NO" id="tWk-b6-KRX">
                         <rect key="frame" x="0.0" y="0.0" width="418" height="286"/>
@@ -76,7 +76,12 @@
                                             <font key="font" metaFont="cellTitle"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="showCreditsWindow:" target="-1" id="SXg-0E-rWT"/>
+                                            <action selector="showCreditsWindow:" target="-2" id="n6O-Ge-mUx"/>
+                                            <binding destination="-2" name="hidden" keyPath="self.creditsWindowController.credits" id="tRd-N6-oW8">
+                                                <dictionary key="options">
+                                                    <string key="NSValueTransformerName">VTArrayIsEmpty</string>
+                                                </dictionary>
+                                            </binding>
                                         </connections>
                                     </button>
                                 </subviews>

@@ -52,4 +52,24 @@ public class AboutWindowController: NSWindowController
         self.name      = Bundle.main.bundleName
         self.copyright = Bundle.main.humanReadableCopyright
     }
+
+    @IBAction
+    private func showCreditsWindow( _ sender: Any? )
+    {
+        guard let window = self.creditsWindowController.window
+        else
+        {
+            NSSound.beep()
+
+            return
+        }
+
+        if window.isVisible == false
+        {
+            window.layoutIfNeeded()
+            window.center()
+        }
+
+        window.makeKeyAndOrderFront( nil )
+    }
 }

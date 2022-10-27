@@ -49,7 +49,11 @@ public class CreditsWindowController: NSWindowController, NSTableViewDelegate, N
 
         set( value )
         {
+            self.willChangeValue( for: \.credits )
+
             self.items = value
+
+            self.didChangeValue( for: \.credits )
         }
     }
 
