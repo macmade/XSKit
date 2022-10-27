@@ -17,6 +17,7 @@
 		05AD4700290AEE1900A791C8 /* CreditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05AD46FD290AEE1900A791C8 /* CreditViewController.xib */; };
 		05AD4702290AEF7000A791C8 /* AboutWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD4701290AEF7000A791C8 /* AboutWindowController.swift */; };
 		05AD4705290AEF9400A791C8 /* AboutWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05AD4703290AEF9400A791C8 /* AboutWindowController.xib */; };
+		05AD4707290AF12400A791C8 /* NSApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD4706290AF12400A791C8 /* NSApplication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		05AD46FE290AEE1900A791C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CreditViewController.xib; sourceTree = "<group>"; };
 		05AD4701290AEF7000A791C8 /* AboutWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutWindowController.swift; sourceTree = "<group>"; };
 		05AD4704290AEF9400A791C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AboutWindowController.xib; sourceTree = "<group>"; };
+		05AD4706290AF12400A791C8 /* NSApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSApplication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				05AD46DC290AEC9C00A791C8 /* Bundle.swift */,
+				05AD4706290AF12400A791C8 /* NSApplication.swift */,
 				05AD46EA290AED5D00A791C8 /* NSView.swift */,
 			);
 			path = Extensions;
@@ -350,6 +353,7 @@
 				05AD46DD290AEC9C00A791C8 /* Bundle.swift in Sources */,
 				05AD46EB290AED5D00A791C8 /* NSView.swift in Sources */,
 				05AD46F8290AEE0800A791C8 /* Credit.swift in Sources */,
+				05AD4707290AF12400A791C8 /* NSApplication.swift in Sources */,
 				05AD46F9290AEE0800A791C8 /* CreditsWindowController.swift in Sources */,
 				05AD46F4290AEDDD00A791C8 /* TableRowView.swift in Sources */,
 				05AD46FA290AEE0800A791C8 /* CreditViewController.swift in Sources */,
