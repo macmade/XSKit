@@ -15,6 +15,8 @@
 		05AD46FA290AEE0800A791C8 /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD46F7290AEE0800A791C8 /* CreditViewController.swift */; };
 		05AD46FF290AEE1900A791C8 /* CreditsWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05AD46FB290AEE1900A791C8 /* CreditsWindowController.xib */; };
 		05AD4700290AEE1900A791C8 /* CreditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05AD46FD290AEE1900A791C8 /* CreditViewController.xib */; };
+		05AD4702290AEF7000A791C8 /* AboutWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD4701290AEF7000A791C8 /* AboutWindowController.swift */; };
+		05AD4705290AEF9400A791C8 /* AboutWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05AD4703290AEF9400A791C8 /* AboutWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +66,8 @@
 		05AD46F7290AEE0800A791C8 /* CreditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
 		05AD46FC290AEE1900A791C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CreditsWindowController.xib; sourceTree = "<group>"; };
 		05AD46FE290AEE1900A791C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CreditViewController.xib; sourceTree = "<group>"; };
+		05AD4701290AEF7000A791C8 /* AboutWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutWindowController.swift; sourceTree = "<group>"; };
+		05AD4704290AEF9400A791C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AboutWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +222,7 @@
 		0581B34E1F8BF64500283F18 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				05AD4703290AEF9400A791C8 /* AboutWindowController.xib */,
 				05AD46FB290AEE1900A791C8 /* CreditsWindowController.xib */,
 				05AD46FD290AEE1900A791C8 /* CreditViewController.xib */,
 			);
@@ -246,6 +251,7 @@
 		05AD46D9290AEC1900A791C8 /* About */ = {
 			isa = PBXGroup;
 			children = (
+				05AD4701290AEF7000A791C8 /* AboutWindowController.swift */,
 			);
 			path = About;
 			sourceTree = "<group>";
@@ -328,6 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05AD4705290AEF9400A791C8 /* AboutWindowController.xib in Resources */,
 				05AD46FF290AEE1900A791C8 /* CreditsWindowController.xib in Resources */,
 				05AD4700290AEE1900A791C8 /* CreditViewController.xib in Resources */,
 			);
@@ -346,6 +353,7 @@
 				05AD46F9290AEE0800A791C8 /* CreditsWindowController.swift in Sources */,
 				05AD46F4290AEDDD00A791C8 /* TableRowView.swift in Sources */,
 				05AD46FA290AEE0800A791C8 /* CreditViewController.swift in Sources */,
+				05AD4702290AEF7000A791C8 /* AboutWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +374,14 @@
 				05AD46FE290AEE1900A791C8 /* Base */,
 			);
 			name = CreditViewController.xib;
+			sourceTree = "<group>";
+		};
+		05AD4703290AEF9400A791C8 /* AboutWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05AD4704290AEF9400A791C8 /* Base */,
+			);
+			name = AboutWindowController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
