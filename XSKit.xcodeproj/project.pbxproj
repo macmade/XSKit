@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		05AD46DD290AEC9C00A791C8 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD46DC290AEC9C00A791C8 /* Bundle.swift */; };
 		05AD46EB290AED5D00A791C8 /* NSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD46EA290AED5D00A791C8 /* NSView.swift */; };
+		05AD46F4290AEDDD00A791C8 /* TableRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD46F3290AEDDD00A791C8 /* TableRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		0581B3461F8BF5F700283F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05AD46DC290AEC9C00A791C8 /* Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		05AD46EA290AED5D00A791C8 /* NSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSView.swift; sourceTree = "<group>"; };
+		05AD46F3290AEDDD00A791C8 /* TableRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 				05AD46D9290AEC1900A791C8 /* About */,
 				05AD46D8290AEC1300A791C8 /* Credits */,
 				05AD46D7290AEC0C00A791C8 /* Extensions */,
+				05AD46F2290AEDC400A791C8 /* Views */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -230,6 +233,14 @@
 			children = (
 			);
 			path = About;
+			sourceTree = "<group>";
+		};
+		05AD46F2290AEDC400A791C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				05AD46F3290AEDDD00A791C8 /* TableRowView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,6 +325,7 @@
 			files = (
 				05AD46DD290AEC9C00A791C8 /* Bundle.swift in Sources */,
 				05AD46EB290AED5D00A791C8 /* NSView.swift in Sources */,
+				05AD46F4290AEDDD00A791C8 /* TableRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
